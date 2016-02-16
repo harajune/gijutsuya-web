@@ -19,6 +19,6 @@ github_username:  harajune
 markdown: kramdown
 exclude: ["README.md", "s3_website.yml"]
 paginate: 5    
-gems: ["jekyll-paginate"]
+gems: ["jekyll-paginate", "jekyll-sitemap"]
 paginate_path: "/blog/page:num"
 excerpt_separator: "<!--more-->"

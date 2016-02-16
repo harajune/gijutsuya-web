@@ -2,5 +2,5 @@ language: ruby
 rvm:
     - 2.0.0
 install: gem install jekyll -v 3.1.1 && gem install s3_website
-script: jekyll build
+script: JEKYLL_ENV=production jekyll build
 after_success: s3_website push

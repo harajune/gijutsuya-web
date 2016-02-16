@@ -4,10 +4,39 @@ title: About
 permalink: /
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+[facebook](https://www.facebook.com/harajune) / [blog]({{site.baseurl}} /blog/) / **email**: harajune at gijutsuya.jp /
+[github](https://github.com/harajune/)
 
-You can find the source code for the Jekyll new theme at:
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+# 略歴
 
-You can find the source code for Jekyll at
-[jekyll](https://github.com/jekyll/jekyll)
+
+## 2015年～: ハードウェアベンチャーCOO
+
+## 2013年～2015年: コンサルティングファーム
+ - 大手自動車会社、販売会社管理システム設計・構築
+ - 携帯キャリア　ポータルサイトレコメンデーションシステム導入PMO
+ - 統計分析・機械学習を活用した業務効率化
+
+## フリーランスエンジニア
+ - 小中規模のWebシステム・サイト開発
+ - 仕様策定 / システムコンサルティング / テクニカルアドバイザー
+
+## 2012年 東京大学大学院　情報理工学系研究科　創造情報学専攻　修了
+ - リコメンデーション / 検索 / 機械学習
+ - Color HLAC特徴量と正準相関分析を用いた画像検索
+
+## 2010年 東京大学　工学部　計数工学科　卒業
+ - [webカメラによる顔の位置検出を利用した仮想デスクトップの作成](://www.youtube.com/watch?v=zbyHyPMcNOQ)
+ - openGLを利用したCG作成（五月祭）
+ - 隠れマルコフモデルを用いた手書き文字検出
+ - ベンチャーキャピタルでインターン(2年間)
+
+# メディア
+ - [ＣＮＥＴ　いい技術とは何か？](http://japan.cnet.com/sp/v_sp/20364996/)
+ - [Mozilla24 オープニングセッション出場　ＩＴ先駆者ＶＳ学生](http://japan.cnet.com/news/media/20356712/)
+
+## 資格
+ - 第2種情報処理技術者
+ - ソフトウェア開発者
+
+

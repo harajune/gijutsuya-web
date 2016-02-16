@@ -7,7 +7,7 @@ title: GDD 2011 Dev Quizに挑戦してみた
 書いたコードは[github](https://github.com/harajune/google-developer-day-quiz-2011)にアップロードしてあります。
 最終結果はこんな感じになりました。
 
-![GDDの成績](http://gyazo.gijutsuya.jp/data/d286ad1a36a2cc9728420943a9244685.png)
+![GDDの成績]({{site.baseurl}}/assets/google-quiz/score.png)
 
 苦戦するとすればチャレンジクイズだと思うので、その方針を簡単に。
 
@@ -81,7 +81,7 @@ int estimate_cost(const node &n1, const node &n2, int w, int h) {
 
 最後に、今回の点数分布について載せておきます。ほとんどの人はチャレンジ問題やらずにすませてるみたいですね・・・・
 
-![スコア分布](http://gyazo.gijutsuya.jp/data/da45356c64273fa3853e3dfec5ba3616.png)
+![スコア分布]({{site.baseurl}}/assets/google-quiz/dist.png)
 
 追記メモ：参加者達
 

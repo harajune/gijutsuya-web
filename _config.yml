@@ -19,3 +19,4 @@ github_username:  harajune
 
 # Build settings
 markdown: kramdown
+exclude: ["README.md", "s3_website.yml"]

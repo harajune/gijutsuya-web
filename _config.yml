@@ -20,5 +20,5 @@ github_username:  harajune
 # Build settings
 markdown: kramdown
 exclude: ["README.md", "s3_website.yml"]
-pagination: 5    
+paginate: 5    
 gems: ["jekyll-paginate"]

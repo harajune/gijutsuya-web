@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family:"PT Sans", Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "$B^b%4%7%C%/(B" , "Yu Gothic" , "$B^b%4%7%C%/BN(B" , "YuGothic" , "$B%R%i%.%N3Q%4(B Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "$B%a%$%j%*(B" , Meiryo , "$B#M#S(B $B#P%4%7%C%/(B" , "MS PGothic" , sans-serif;
+  font-family:"PT Sans", Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
 }
 @media (min-width: 48em) {
   html {

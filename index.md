@@ -4,7 +4,7 @@ title: About
 permalink: /
 ---
 
-[facebook](https://www.facebook.com/harajune) / [twitter](https://twitter.com/hrjn) / [blog](https://medium.com/@harajune) / **email**: harajune at gijutsuya.jp /
+[facebook](https://www.facebook.com/harajune) / [twitter](https://twitter.com/hrjn) / [blog](http://blog.gijutsuya.jp/) / **email**: harajune at gijutsuya.jp /
 [github](https://github.com/harajune/)
 
 # 略歴

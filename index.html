@@ -38,6 +38,7 @@
 
 	  gtag('config', 'UA-424222-7');
 	</script>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 
 </head>
 
@@ -428,8 +429,11 @@
                      <label for="contactMessage">Message <span class="required">*</span></label>
                      <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
                   </div>
-
-                  <div>
+				  <div>
+					 <label>Captcha</label>	
+				     <div class="g-recaptcha" data-sitekey="6Lf1QV0UAAAAAKu2A5Py0qiFmg4gp9y_gN7SOTOM"></div>
+				  </div>
+				  <div>
                      <button class="submit">Submit</button>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif">
@@ -437,6 +441,7 @@
                   </div>
 
 					</fieldset>
+
 				   </form> <!-- Form End -->
 
                <!-- contact-warning -->

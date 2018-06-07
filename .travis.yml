@@ -2,7 +2,8 @@ language: ruby
 rvm:
     - 2.2.5
 install: gem install s3_website
-script: s3_website push
+script: mkdir -p dist && cp -rf css images js index.html dist/
+after_success: s3_website push
 branches:
     only:
         - master

@@ -3,3 +3,4 @@ s3_secret: <%= ENV['S3_SECRET_KEY'] %>
 s3_bucket: www.gijutsuya.jp
 gzip: true
 max_age: 86400
+site: dist

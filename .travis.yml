@@ -1,9 +1,17 @@
-language: ruby
-rvm:
-    - 2.2.5
-install: gem install s3_website
-script: mkdir -p dist && cp -rf css images js index.html sitemap.xml dist/
-after_success: s3_website push
-branches:
-    only:
-        - master
+before_deploy: mkdir -p dist && cp -rf css images js index.html sitemap.xml
+deploy:
+    provider: s3
+    access_key_id:
+        secure: uMWBmy2tvzbwG20TNIudZUc00BP11NT2okbL5zCe/7OrDi6BIBLJ09Ib9zay39gmshRJzolA5Z9uCme/8IM79o4wysvPBQHweZWdI1lqne7llcmwV8y4uaXbSZcEPWyclKdiQHKSIm9WxSKfNKPTZD/JeWfh9jrb07FY8MUjuYGIUXdsaV9JSX2Y54AtUJ8zKk2QL3wA3mcjHZGnJlZFScTsZ4wNGZxrHheCT5Q9JHPw1AUYWypS7aNGUzUACT5QHlEOMYw88NMeBS+n0s2xSD47eBay5WfQ65maSc5tLCHyaN6/Y3FxAnzH/MCoF91taSzKAk/zdFrbFPY+K1tBy+5IwN3zVpdstgYkR98rGpvWT2jDToVwLt63xe+yk5fto/cFZKyhweVZ30Te+LIYP8GG0jl8uDtwPKJr00jL5QlnHzM248UMYSgGmdodunfTQgE0fkb82zQdr+kgZxfvOiYyA79P2OOfEDi9BHdH2WxzbPiJveD2WvwJFm0iV+0urj9e4J9MM7z7vghzQAem45+YjyCmJy1JKSuczfHq52VksQJdoeG5kvkr/HdXLZNcGxzOWa0pX8pP4iJ648p77aIuvVD0om2dZQadfV5U9aaw0QWm8hv7gRLp4JQsDGWAt3R8xiWDxMxYQQoN8hM5B1YiwxQUjazpMLlKN/GizyA=
+
+    secret_access_key:
+        secure: Ux8uD74A+6TDnjr1ypYyedHJyFt2vw1nwyqmVSR1MTkvj8k85EVHRMlxNV/ojxYzp60ISLq5Ps+nFhkVtz8uRq0e2A4cGv41AqhtfL5TFZPv+AY2iGaHjhoRDGmjICVVj+2x2AkG8pNUgXxfLcDexisi3df3TAvN2ugzKEpBG0OEPTvCYjQN8jakOMQ8uqaUhbNOEvvwygyax0ZTX0+n9Ay7UyKd5nqS0HLbyLR7v6uFiuD5J4i97ca1r1hOh+eyGqjTsAk4hnvHaOuNY3KIcxU5453mwJLTqecdzuYQOJgGo+gnuz63UW2wvIt9qPK1hVF2oR5nX9kAsC3veVnsf0hKN/SUaJi/Bzq4cxVyZDu/ReOugJV1HCvGZRVuFnxt7hMzBK17Mi8DYcZ6KjGsDWjH0puywVAR0VGhQh5M4/aviG/FjSh0wQNBQ1g44T1/rg3oAhyrCGekxiSNd3KcSIXGwP3ealw+b24j+k8/Nz1UYgRdUKsDLYcHJl4U0gKbcBXq4iEKEpGJkgaQYfJ9ux8hq99eyIMkChfZTmLnW/qYmFiKlInJJ2I7Se+n3HUjM3pqVrFae6ITfJtOJslvfZon98VgN2dWs7Uzn+Fv/TIa+2dXkezcHmeEiNHbbMVhDbRxYwsC9ZJzAdGuTne70PmGF53mzr31QtcYlOUBiuQ=
+
+    bucket: www.gijutsuya.jp
+    skip_cleanup: true
+    local_dir: dist
+    detect_encoding: true
+
+    branches:
+        only:
+            - master
